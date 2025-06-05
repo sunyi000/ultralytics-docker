@@ -21,4 +21,4 @@ RUN git clone https://github.com/ultralytics/ultralytics .
 
 RUN pip install -e .
 # lower version of numpy
-RUN pip install numpy==1.26.4 scikit-image==0.25.0 collection termcolor 
+RUN pip install numpy==1.26.4 scikit-image==0.25.0 collection termcolor scikit-learn=1.6.1
