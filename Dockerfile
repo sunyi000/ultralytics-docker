@@ -16,7 +16,6 @@ RUN apt-get update && \
 RUN apt upgrade --no-install-recommends -y openssl tar
 
 WORKDIR /ultralytics
-# Clone the ultralytics repository
 RUN git clone https://github.com/ultralytics/ultralytics .
 
 RUN pip install -e .
